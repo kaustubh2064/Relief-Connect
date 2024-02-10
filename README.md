@@ -50,4 +50,4 @@ npm start
   - [Kaustubh Duse](https://github.com/kaustubh2064)
   - [Aditya Gahukar](https://github.com/AdityaGahukar)
   - [Dhruv Sachdeva](https://github.com/dhruvsachdeva04)
-  - [Riyank Singh](https://github.com/riyank24)
+  - [Riyank Singh](https://github.com/riyank22)
