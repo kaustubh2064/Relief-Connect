@@ -42,8 +42,6 @@ npm start
 - HTML
 - CSS
 - Tailwind CSS
-- Firebase
-- Stripe API
 
 ## Contributers
 
