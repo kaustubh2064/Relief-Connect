@@ -1,0 +1,33 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.alternate-section-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $dark-text;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    height: 0.375rem;
+    width: 4.75rem;
+    background: $primary;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1px;
+  }
+
+  &--secondary {
+    &::after {
+      background: $secondary;
+    }
+  }
+}

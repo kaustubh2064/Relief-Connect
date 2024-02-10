@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 19px;
+  line-height: 37px;
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding-left: 21px;
+  padding-right: 21px;
+}

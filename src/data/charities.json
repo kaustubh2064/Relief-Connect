@@ -1,0 +1,30 @@
+[
+  {
+    "organization": "Canadian Red Cross",
+    "type": "wildfire",
+    "fund": "BC Fires Appeal",
+    "link": "https://donate.redcross.ca/page/133830/donate/1?locale=en-CA",
+    "logo": "/images/charity/red-cross.svg"
+  },
+  {
+    "organization": "United Way BC",
+    "type": "wildfire",
+    "fund": "BC Wildfire Recovery Fund",
+    "link": "https://uwbc.ca/campaign/wildfires/",
+    "logo": "/images/charity/united-way.svg"
+  },
+  {
+    "organization": "Canadian Red Cross",
+    "type": "flood",
+    "fund": "BC Floods Appeal",
+    "link": "https://www.redcross.ca/about-us/media-news/news-releases/canadian-red-cross-launches-british-columbia-floods-and-extreme-weather-appeal",
+    "logo": "/images/charity/red-cross.svg"
+  },
+  {
+    "organization": "United Way BC",
+    "type": "flood",
+    "fund": "BC Flood Response Fund",
+    "link": "https://uwbc.ca/campaign/flood/",
+    "logo": "/images/charity/united-way.svg"
+  }
+]

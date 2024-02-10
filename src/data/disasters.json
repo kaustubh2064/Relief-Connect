@@ -1,0 +1,179 @@
+
+[
+  
+  {
+    "id": "b80e71bi66xn6mu",
+    "name": "Nagpur floods",
+    "type": "wildfire",
+    "location": "Nagpur",
+    "country:": "India",
+    "coverPhoto": "/images/disaster-covers/b80e71bi66xn6mu_cover.png",
+    "mapPhoto": "",
+    "status": "ongoing",
+    "startDateText": "Aug 15, 2023",
+    "startDate": "08/15/2023",
+    "description": "An ill-planned storm water drainage system and encroachment along the Nag river that blocks the flow of the river.",
+    "impacts": [
+      {
+        "metric": "homes lost",
+        "value": "200+"
+      },
+      {
+        "metric": "people evacuated",
+        "value": "10,000+"
+      },
+      {
+        "metric": "acres of land that beacme infertile",
+        "value": "2,400+"
+      }
+    ],
+    "experiences": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "userName": "Kaustubh Duse",
+        "userProfilePhoto": "/images/profile/Elena.png",
+        "needsFoodAndWater": true,
+        "needsHousing": true,
+        "needsClothing": true,
+        "numComments": 5,
+        "photos": [
+          "/images/comment-pics/floodp3.jpeg",
+          "/images/comment-pics/floodp4.jpeg",
+          "/images/comment-pics/floodp5.jpeg"
+        ],
+        "comment": "I'm one of the many who lost their homes in the West Kelowna wildfire. I find myself with nothing, desperately in need of food, water, temporary shelter, and clothing/personal items. Every donation, no matter how small, can bring hope and relief. Your generosity can help me rebuild my life. Thank you. .",
+        "timestamp": 1692982836
+        
+      },
+      {
+        "id": "oliviabennettcomment",
+        "userName": "Olivia Bennett",
+        "userProfilePhoto": "/images/profile/Olivia.jpg",
+        "needsFoodAndWater": false,
+        "needsHousing": false,
+        "needsClothing": true,
+        "numComments": 9,
+        "photos": [
+          "/images/comment-pics/floodp1.jpeg",
+          "/images/comment-pics/floodp2.jpeg",
+          "/images/comment-pics/floodp3.jpeg"
+        ],
+        "comment": "The West Kelowna wildfire has left me with nothing but the clothes on my back. My home, my belongings, all gone. I'm desperately seeking help for temporary shelter and clothing/personal items. Your generosity can provide the essentials I need to start rebuilding my life. Thank you so much.",
+        "timestamp": 1692889236
+      }
+    ]
+  },
+  {
+    "id": "owy9opv2yju7kyu",
+    "name": "Surat Gas leakage",
+    "type": "wildfire",
+    "location": "Great Beaver Lake",
+    "country:": "Canada",
+    "coverPhoto": "/images/disaster-covers/owy9opv2yju7kyu_cover.jpg",
+    "mapPhoto": "",
+    "status": "recovery",
+    "startDateText": "Jul 1, 2023",
+    "endDateText": "Jul 6, 2023",
+    "startDate": "08/10/2023",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non turpis nec risus egestas scelerisque in vel tortor. Phasellus non dolor blandit, interdum diam at, tristique lectus. Donec vel dui tristique, suscipit enim ullamcorper, ultrices velit. Fusce euismod massa eu purus blandit dapibus. Ut pellentesque cursus dictum. Nullam hendrerit accumsan tincidunt. Integer rhoncus urna ipsum, nec mollis metus ornare ullamcorper. Sed ut turpis urna. I",
+    "impacts": [
+      {
+        "metric": "homes lost",
+        "value": "20+"
+      },
+      {
+        "metric": "people evacuated",
+        "value": "2,000+"
+      },
+      {
+        "metric": "acres of forest destroyed",
+        "value": "1,500+"
+      }
+    ],
+    "experiences": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "userName": "Elijah Lewis",
+        "userProfilePhoto": "/images/profile/Elijah.jpg",
+        "needsFoodAndWater": true,
+        "needsHousing": false,
+        "needsClothing": false,
+        "numComments": 6,
+        "photos": [],
+        "comment": "I never imagined I'd be in this position, but the Prince George wildfire took everything I had. Right now, I'm desperately in need of food and water to survive. \n\n I'm reaching out for help. If you can spare anything - a meal, a bottle of water - it would mean the world to me. Your generosity can bring relief in this dire situation.Thank you from the bottom of my heart for your kindness and support.",
+        "timestamp": 1688343294
+      },
+      {
+        "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+        "userName": "Lila Carter",
+        "userProfilePhoto": "/images/profile/Lila.jpg",
+        "needsFoodAndWater": false,
+        "needsHousing": false,
+        "needsClothing": false,
+        "numComments": 12,
+        "photos": [],
+        "comment": "The devastation caused by the Prince George wildfire has left me with nothing but ashes. I lost my home, my belongings, my sense of security. I'm reaching out to you in desperate need of donations to rebuild my life. \n\nYour support can make a difference. Even the smallest contribution will help me take a step toward recovery. Please, if you can, lend a hand during this challenging time",
+        "timestamp": 1688256894
+      }
+    ]
+  },
+  {
+    "id": "4r3uxe640dbr6nr",
+    "name": "Manipur Land Slide",
+    "type": "flood",
+    "location": "Sumas Prairie",
+    "country:": "Canada",
+    "coverPhoto": "/images/disaster-covers/4r3uxe640dbr6nr_cover.jpeg",
+    "mapPhoto": "",
+    "status": "recovery",
+    "startDateText": "Nov 12, 2021",
+    "endDateText": "Nov 29, 2021",
+    "startDate": "08/15/2021",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non turpis nec risus egestas scelerisque in vel tortor. Phasellus non dolor blandit, interdum diam at, tristique lectus. Donec vel dui tristique, suscipit enim ullamcorper, ultrices velit. Fusce euismod massa eu purus blandit dapibus. Ut pellentesque cursus dictum. Nullam hendrerit accumsan tincidunt. Integer rhoncus urna ipsum, nec mollis metus ornare ullamcorper. Sed ut turpis urna. I",
+    "impacts": [
+      {
+        "metric": "properties lost",
+        "value": "1,100+"
+      },
+      {
+        "metric": "people evacuated",
+        "value": "3,300+"
+      },
+      {
+        "metric": "livestock lives lost",
+        "value": "640,000+"
+      }
+    ],
+    "experiences": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "userName": "John Wong",
+        "userProfilePhoto": "/images/profile/John.jpg",
+        "needsFoodAndWater": false,
+        "needsHousing": true,
+        "needsClothing": false,
+        "numComments": 4,
+        "photos": [
+          "/images/comment-pics/johnwongcomment-1.png",
+          "/images/comment-pics/johnwongcomment-2.png",
+          "/images/comment-pics/johnwongcomment-3.png"
+        ],
+        "comment": "It's hard to believe it's been two years since the Abbotsford flood changed my life. I lost my home, my belongings, everything, in the blink of an eye. Though time has passed, the struggle is far from over. I'm reaching out once again, seeking temporary housing as I continue to rebuild. Your donations can bring back stability and hope to my life. Thank you for considering my plea. ",
+        "timestamp": 1694564094
+      },
+      {
+        "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+        "userName": "Jamie Patel",
+        "userProfilePhoto": "/images/profile/Jamie.jpg",
+        "needsFoodAndWater": false,
+        "needsHousing": false,
+        "needsClothing": false,
+        "numComments": 9,
+        "photos": [],
+        "comment": "The Abbotsford flood swept away not just my home and car but also my sense of security. Two years later, I am still in the process of rebuilding. The road to recovery is challenging, but your support can make a world of difference. \n\nI am reaching out with a plea for help. Your donations are not just financial aid; they are the foundation upon which I can reconstruct my life. With your kindness, I can find stability and hope once more. Thank you for being a beacon of support on my path to recovery.",
+        "timestamp": 1694736894
+      }
+    ]
+  }
+]
+

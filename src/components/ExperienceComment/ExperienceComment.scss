@@ -1,0 +1,101 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.comment {
+  box-shadow: $box-shadow;
+  padding: 23px 18px;
+  border-radius: $border-radius-lg;
+  @include flexbox($direction: column);
+  gap: 36px;
+
+  &__needs-container {
+    display: inline-flex;
+    gap: 6px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  &__needs {
+    width: 100%;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 16px;
+  }
+
+  &__header {
+    @include flexbox($justify-content: space-between, $align-items: flex-start);
+    gap: 21px;
+    width: 100%;
+  }
+
+  &__sublabel {
+    font-size: 14px;
+  }
+
+  &__save {
+    @include flexbox($direction: column);
+    gap: 5px;
+  }
+
+  &__save-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__name-date {
+    @include flexbox($direction: column, $align-items: flex-start);
+    gap: 5px;
+  }
+
+  &__header-text {
+    padding-top: 14px;
+    @include flexbox($justify-content: space-between, $align-items: flex-end);
+    width: 100%;
+  }
+
+  &__label,
+  &__needs-label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__needs-label {
+    margin-bottom: 15px;
+  }
+
+  &__footer {
+    width: 100%;
+  }
+
+  &__photos {
+    @include flexbox($justify-content: space-between);
+    width: 100%;
+    gap: 7px;
+  }
+
+  &__bottom-btns {
+    @include flexbox();
+    gap: 53px;
+  }
+
+  &__share-btn,
+  &__comment-btn {
+    @include flexbox();
+  }
+
+  &__share-icon,
+  &__comment-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+  }
+
+  &__comment {
+    width: 100%;
+  }
+}

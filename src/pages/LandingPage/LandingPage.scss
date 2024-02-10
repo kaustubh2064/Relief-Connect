@@ -1,0 +1,13 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+
+
+.button-examples {
+    margin: 3rem;
+    padding: 1rem;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

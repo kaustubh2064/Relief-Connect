@@ -1,0 +1,25 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.charity-card {
+  width: 189px;
+  padding: 8px 8px 20px;
+  border-radius: $border-radius-sm;
+  box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.17);
+
+  &__organization-name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__fund {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+}

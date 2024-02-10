@@ -1,0 +1,53 @@
+@use "../../styles/variables.scss" as *;
+
+.tip {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-bottom: 1px solid $dark-text;
+  padding-bottom: 23px;
+
+  &--last {
+    border-bottom: none;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__step {
+    font-size: 20px;
+  }
+
+  &__collapsed {
+    margin-left: 16px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  &__substep {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.5px;
+  }
+
+  &__substep-name {
+    font-weight: 700;
+  }
+
+  //   &__plus-minus-icons {
+  //     // height: 24px;
+  //     width: 24px;
+  //   }
+}

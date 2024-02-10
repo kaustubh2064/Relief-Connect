@@ -1,0 +1,65 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"); // didn't get imported come back?
+
+.disaster-card {
+  width: 100%;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+
+  color: $dark-text; // why not inherited?
+  font-family: "Montserrat", sans-serif;
+  color: $dark-text;
+
+  &__buttons {
+    @include flexbox;
+    padding: 0 0.875rem;
+    gap: 0.5rem;
+    margin-bottom: 1.625rem;
+  }
+
+  &__footer {
+    margin-top: 1.5rem;
+  }
+
+  &__footer-text {
+    padding: 0 1.375rem;
+  }
+
+  &__img-container {
+    position: relative;
+  }
+
+  &__img {
+    height: 16.25rem;
+    width: 28.125rem;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &__name {
+    //move to mixin?
+
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__status {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.375rem;
+  }
+
+  &__date {
+    font-size: 1.125rem;
+    margin-top: 19px;
+    margin-bottom: 19px;
+
+    &--highlight {
+      font-weight: 600;
+    }
+  }
+}

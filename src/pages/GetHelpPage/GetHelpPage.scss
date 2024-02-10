@@ -1,0 +1,11 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.get-help-page {
+  &__support {
+    margin-top: 64px;
+    margin-bottom: 44px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

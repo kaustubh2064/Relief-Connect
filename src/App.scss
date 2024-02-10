@@ -1,0 +1,21 @@
+@use "./styles/mixins.scss" as *;
+@use "./styles/variables.scss" as *;
+
+.app {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: $box-shadow;
+  position: relative;
+  padding-top: $nav-height;
+
+  &__page {
+    min-height: calc(100vh - $nav-height - $footer-height);
+  }
+
+  @include tablet {
+    max-width: 430px;
+    min-width: 430px;
+  }
+}

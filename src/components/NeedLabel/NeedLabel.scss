@@ -1,0 +1,11 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.need-label {
+  border: 2px solid $secondary;
+  padding: 4px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}

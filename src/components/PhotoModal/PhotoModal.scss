@@ -1,0 +1,46 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.photo-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $dark-overlay;
+  z-index: 10;
+  @include flexbox;
+
+  @include tablet {
+    max-width: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__content {
+    background-color: $primary-background;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+
+    @include tablet {
+      max-width: 390px;
+      max-height: 835px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__close {
+    fill: white;
+    position: absolute;
+    right: 14px;
+    top: 26px;
+  }
+}

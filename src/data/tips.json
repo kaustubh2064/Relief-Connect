@@ -1,0 +1,142 @@
+{
+  "wildfire": [
+    {
+      "stepTitle": "Ensure Safety First",
+      "stepContents": [
+        {
+          "substep": "Wait for Authorities",
+          "substepDetail": "Do not return to your home or the affected area until authorities declare it safe. Listen to local news and follow official instructions."
+        },
+        {
+          "substep": "Wear Protective Gear",
+          "substepDetail": "When inspecting your property, wear proper protective clothing, including gloves, masks, and long-sleeved shirts, to avoid exposure to ash and debris."
+        }
+      ]
+    },
+    {
+      "stepTitle": "Contact Insurance Company",
+      "stepContents": [
+        {
+          "substep": "Notify Your Insurance Provider",
+          "substepDetail": "Contact your insurance company as soon as possible to report the damage. Document the damage with photographs and videos before cleaning up or making any repairs."
+        },
+        {
+          "substep": "Understand Your Policy",
+          "substepDetail": "Understand what your insurance policy covers. Ask questions if you are uncertain about any aspect of your coverage.Understand what your insurance policy covers. Ask questions if you are uncertain about any aspect of your coverage."
+        }
+      ]
+    },
+
+    {
+      "stepTitle": "Document & Assess Damage",
+      "stepContents": [
+        {
+          "substep": "Document Extensively",
+          "substepDetail": "Take photographs and videos of the damage to your property and belongings. This documentation will be crucial for insurance claims and disaster assistance applications."
+        },
+        {
+          "substep": "Make a Detailed Inventory",
+          "substepDetail": "Understand what your insurance policy covers. Ask questions if you are uncertain about any aspect of your coverage."
+        }
+      ]
+    },
+    {
+      "stepTitle": "Seek Disaster Assistance",
+      "stepContents": [
+        {
+          "substep": "Apply for Assistance",
+          "substepDetail": "While government programs may not provide immediate recovery and relief, we recommend that you still apply for assistance from government programs."
+        },
+        {
+          "substep": "Get help by sharing your story below",
+          "substepDetail": "Connect with others who've faced the same natural disaster and express your needs. Together, we can match your needs with generous donors who are looking to provide 1-to-1 support."
+        }
+      ]
+    },
+    {
+      "stepTitle": "Take Care of Yourself",
+      "stepContents": [
+        {
+          "substep": "Monitor Health",
+          "substepDetail": "Pay attention to your physical and mental health. Wildfire aftermath can be stressful; seek medical attention if you feel unwell."
+        },
+        {
+          "substep": "Seek Support",
+          "substepDetail": "Don't hesitate to talk to friends, family, or a mental health professional about your feelings. Natural disasters can be emotionally overwhelming, and it's essential to seek support when needed."
+        }
+      ]
+    }
+  ],
+
+  "flood": [
+    {
+      "stepTitle": "Assess Structural Damage",
+      "stepContents": [
+        {
+          "substep": "Inspect Foundations",
+          "substepDetail": "Check for cracks or shifts in your home's foundation. Structural integrity is vital for safety."
+        },
+        {
+          "substep": "Examine Walls and Roofs",
+          "substepDetail": "Look for water damage, warping, or discolouration on walls and ceilings. Address any visible issues promptly."
+        }
+      ]
+    },
+
+    {
+      "stepTitle": "Health Precautions",
+      "stepContents": [
+        {
+          "substep": "Avoid Contaminated Water",
+          "substepDetail": "Do not consume or come into contact with floodwater, as it may contain harmful bacteria or chemicals."
+        },
+        {
+          "substep": "Protective Gear",
+          "substepDetail": "Use gloves, masks, and boots when cleaning up to minimize exposure to contaminants."
+        }
+      ]
+    },
+
+    {
+      "stepTitle": "Financial Recovery",
+      "stepContents": [
+        {
+          "substep": "Contact Insurance",
+          "substepDetail": "Report the damage to your insurance company as soon as possible. Keep records of all communication and documentation."
+        },
+        {
+          "substep": "Get help by sharing your story below",
+          "substepDetail": "Connect with others who've faced the same natural disaster and express your needs. Together, we can match your needs with generous donors who are looking to provide 1-to-1 support."
+        }
+      ]
+    },
+
+    {
+      "stepTitle": "Seek Disaster Assistance",
+      "stepContents": [
+        {
+          "substep": "Apply for Assistance",
+          "substepDetail": "While government programs may not provide immediate recovery and relief, we recommend that you still apply for assistance from government programs."
+        },
+        {
+          "substep": "Get help by sharing your story below",
+          "substepDetail": "Connect with others who've faced the same natural disaster and express your needs. Together, we can match your needs with generous donors who are looking to provide 1-to-1 support."
+        }
+      ]
+    },
+
+    {
+      "stepTitle": "Take Care of Yourself",
+      "stepContents": [
+        {
+          "substep": "Monitor Health",
+          "substepDetail": "Pay attention to your physical and mental health. Flood aftermath can be stressful; seek medical attention if you feel unwell."
+        },
+        {
+          "substep": "Seek Support",
+          "substepDetail": "Don't hesitate to talk to friends, family, or a mental health professional about your feelings. Natural disasters can be emotionally overwhelming, and it's essential to seek support when needed."
+        }
+      ]
+    }
+  ]
+}

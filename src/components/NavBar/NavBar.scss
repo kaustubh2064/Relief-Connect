@@ -1,0 +1,52 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.navbar {
+  background-color: $primary;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: $nav-height;
+  padding-right: 16px;
+  padding-left: 16px;
+  z-index: 5;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: $nav-height;
+    width: 100%;
+  }
+
+  &__left {
+    @include flexbox();
+    gap: 20px;
+  }
+
+  &__logo {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  &__menu {
+    width: 32px;
+    overflow: hidden;
+  }
+
+  &__links {
+    @include flexbox($direction: column, $align-items: flex-start);
+    padding-left: 58px; //do this better
+    gap: 56px;
+    margin-top: 50px;
+    padding-bottom: 48px;
+  }
+
+  &__link {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

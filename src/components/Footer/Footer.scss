@@ -1,0 +1,30 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.footer {
+    width: 100%;
+    height: 8.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    color: $dark-text;
+    gap: 1.875rem;
+
+    &__link-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        font-size: 0.75rem;
+    }
+
+    &__icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+    }
+}

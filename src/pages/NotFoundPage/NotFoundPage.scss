@@ -1,0 +1,8 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.not-found {
+  height: 50vh;
+  @include flexbox($direction: column);
+  gap: 1rem;
+}
