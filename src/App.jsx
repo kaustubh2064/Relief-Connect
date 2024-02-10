@@ -37,7 +37,6 @@ function App() {
         <div className='app__page'>
           <Routes>
             {/* Login route */}
-            <Route path="/login" element={<LoginForm />} />
 
             {/* Other routes */}
             <Route path="/" element={<LandingPage disasterData={disasterList} />} />
