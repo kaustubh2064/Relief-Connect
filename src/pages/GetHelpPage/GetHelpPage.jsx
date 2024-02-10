@@ -21,7 +21,7 @@ function GetHelpPage({ disasterData, addExperienceComment }) {
     const selectedDisaster = disasterData.find((disaster => disaster.id === params.id));
 
 
-    useEffect(() => {
+    useEffect(() => {   
         window.scrollTo({ top: 0, behavior: 'smooth' });
         if (!selectedDisaster) {
             navigate('/not-found');

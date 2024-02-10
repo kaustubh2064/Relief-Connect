@@ -8,7 +8,7 @@ function DisasterCard({ disaster }) {
     const navigate = useNavigate();
 
     return (
-        <article className='disaster-card'>
+        <div className='disaster-card'>
             <div className='disaster-card__img-container'>
                 <img className='disaster-card__img' src={disaster.coverPhoto} alt="photo of disaster" />
                 {disaster.status == "ongoing" && <img src={ongoing} alt="ongoing" className='disaster-card__status' />}
@@ -16,7 +16,7 @@ function DisasterCard({ disaster }) {
             </div>
             <div className='disaster-card__footer'>
                 <div className='disaster-card__footer-text'>
-                    <h4 className='disaster-card__name'>{disaster.name}</h4>
+                    <h4 className='disaster-card__name '>{disaster.name}</h4>
                     <div className='disaster-card__date'>
                         {disaster.status == "ongoing"
                             ? <p className='disaster-card__date'>
@@ -36,7 +36,7 @@ function DisasterCard({ disaster }) {
                     <Button text='Donate' modifier="--secondary" onClick={() => { navigate(`/donate/${disaster.type}`) }} />
                 </div>
             </div>
-        </article >
+        </div >
     )
 }
 

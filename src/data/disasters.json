@@ -30,7 +30,7 @@
     "experiences": [
       {
         "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
-        "userName": "Kaustubh Duse",
+        "userName": "USER1",
         "userProfilePhoto": "/images/profile/Elena.png",
         "needsFoodAndWater": true,
         "needsHousing": true,
@@ -41,13 +41,13 @@
           "/images/comment-pics/floodp4.jpeg",
           "/images/comment-pics/floodp5.jpeg"
         ],
-        "comment": "I'm one of the many who lost their homes in the West Kelowna wildfire. I find myself with nothing, desperately in need of food, water, temporary shelter, and clothing/personal items. Every donation, no matter how small, can bring hope and relief. Your generosity can help me rebuild my life. Thank you. .",
+        "comment": "Caught in the floods of Nagpur in 2023, I found myself stranded, surrounded by rising waters and uncertainty. Amidst the chaos, I witnessed the resilience of the human spirit as strangers became allies, helping one another weather the storm. Now, as we rebuild our lives and our city, I ask for your support. Your donation can make a difference in providing relief to those affected by the floods, offering hope and assistance in their time of need.",
         "timestamp": 1692982836
         
       },
       {
         "id": "oliviabennettcomment",
-        "userName": "Olivia Bennett",
+        "userName": "USER2",
         "userProfilePhoto": "/images/profile/Olivia.jpg",
         "needsFoodAndWater": false,
         "needsHousing": false,
@@ -58,7 +58,7 @@
           "/images/comment-pics/floodp2.jpeg",
           "/images/comment-pics/floodp3.jpeg"
         ],
-        "comment": "The West Kelowna wildfire has left me with nothing but the clothes on my back. My home, my belongings, all gone. I'm desperately seeking help for temporary shelter and clothing/personal items. Your generosity can provide the essentials I need to start rebuilding my life. Thank you so much.",
+        "comment": "I was stuck in a sudden flood which occured in Nagpur and I lost my house as it was drowned away with it. Your little donation means a lot to me",
         "timestamp": 1692889236
       }
     ]
