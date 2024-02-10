@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
@@ -10,7 +11,6 @@ import GetHelpPage from './pages/GetHelpPage/GetHelpPage';
 import LandingPage from './pages/LandingPage/LandingPage';
 import DonatePage from './pages/DonatePage/DonatePage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
-import LoginForm from './pages/LoginPage/login';
 
 // Components 
 import NavBar from './components/NavBar/NavBar';
@@ -36,8 +36,7 @@ function App() {
         <NavBar />  
         <div className='app__page'>
           <Routes>
-            {/* Login route */}
-
+            {/* Login and Signup routes */}
             {/* Other routes */}
             <Route path="/" element={<LandingPage disasterData={disasterList} />} />
             <Route path="/gethelp/:id" element={<GetHelpPage disasterData={disasterList} addExperienceComment={addExperienceComment} />} />

@@ -50,3 +50,22 @@
     text-decoration: none;
   }
 }
+
+
+.navbar__link {
+  color: blue; /* Set link color */
+  text-decoration: underline; /* Add underline */
+  cursor: pointer; /* Change cursor to pointer */
+  margin-right: 20px; /* Add some spacing */
+}
+
+.contact-info {
+  margin-top: 0.5px;
+  margin-left: 20px;
+   /* Add spacing between link and contact info */
+}
+
+.contact-info p {
+  margin: 5px 0; /* Add spacing between phone and email */
+  font-weight: 400;
+}

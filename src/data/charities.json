@@ -1,30 +1,30 @@
 [
   {
-    "organization": "Canadian Red Cross",
+    "organization": "National Disaster Management Authority",
     "type": "wildfire",
-    "fund": "BC Fires Appeal",
-    "link": "https://donate.redcross.ca/page/133830/donate/1?locale=en-CA",
-    "logo": "/images/charity/red-cross.svg"
+    "fund": "Government of Inida",
+    "link": "https://www.ndma.gov.in/",
+    "logo": "https://www.ndma.gov.in/sites/default/files/emblem-dark.png"
   },
   {
-    "organization": "United Way BC",
+    "organization": "Seva Mandir",
     "type": "wildfire",
-    "fund": "BC Wildfire Recovery Fund",
-    "link": "https://uwbc.ca/campaign/wildfires/",
-    "logo": "/images/charity/united-way.svg"
+    "fund": "Rural and Community NGO",
+    "link": "https://www.sevamandir.org/",
+    "logo": "https://img.freepik.com/free-vector/boxes-charity-donation-with-money-hearts_24877-54467.jpg?w=740&t=st=1707603609~exp=1707604209~hmac=f7c86f03528d4d81a18c7dd357595f17e7d075e6f716725daebcac4e507f1c74"
   },
   {
-    "organization": "Canadian Red Cross",
+    "organization": "National Disaster Management Authority",
     "type": "flood",
-    "fund": "BC Floods Appeal",
-    "link": "https://www.redcross.ca/about-us/media-news/news-releases/canadian-red-cross-launches-british-columbia-floods-and-extreme-weather-appeal",
-    "logo": "/images/charity/red-cross.svg"
+    "fund": "Government of Inida",
+    "link": "https://www.ndma.gov.in/",
+    "logo": "https://www.ndma.gov.in/sites/default/files/emblem-dark.png"
   },
   {
-    "organization": "United Way BC",
+    "organization": "Seva Mandir",
     "type": "flood",
-    "fund": "BC Flood Response Fund",
-    "link": "https://uwbc.ca/campaign/flood/",
-    "logo": "/images/charity/united-way.svg"
+    "fund": "Rural and Community NGO",
+    "link": "https://www.sevamandir.org/",
+    "logo": "https://img.freepik.com/free-vector/boxes-charity-donation-with-money-hearts_24877-54467.jpg?w=740&t=st=1707603609~exp=1707604209~hmac=f7c86f03528d4d81a18c7dd357595f17e7d075e6f716725daebcac4e507f1c74"
   }
 ]
